@@ -1,5 +1,5 @@
 .gradle
-.ideal
+.idea
 /app/build
 /Test
 /local.properties
