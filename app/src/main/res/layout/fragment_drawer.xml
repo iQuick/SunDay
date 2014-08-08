@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_drawer"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/drawer_weather_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:scaleType="centerCrop"  />
+
+                <RelativeLayout
+                    style="@style/DrawerLayout"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/drawer_weather_icon" />
+
+                    <ImageView
+                        android:id="@+id/drawer_weather"
+                        style="@style/DrawerIv"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/w1_s" />
+
+
+                    <TextView
+                        android:id="@+id/drawer_tv_weather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/drawer_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/drawer_tv_weather"
+                        android:layout_below="@id/drawer_tv_weather"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_tigan" />
+
+                <TextView
+                    android:id="@+id/drawer_tigan"
+                    style="@style/DrawerTv" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_chuanyi" />
+
+                <TextView
+                    android:id="@+id/drawer_chuanyi"
+                    style="@style/DrawerTv" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_ziwaixian" />
+
+
+                <TextView
+                    android:id="@+id/drawer_ziwaixian"
+                    style="@style/DrawerTv" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_ganmao" />
+
+
+                <TextView
+                    android:id="@+id/drawer_ganmao"
+                    style="@style/DrawerTv" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_yundong" />
+
+
+                <TextView
+                    android:id="@+id/drawer_yundong"
+                    style="@style/DrawerTv" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_xiche" />
+
+                <TextView
+                    android:id="@+id/drawer_xiche"
+                    style="@style/DrawerTv" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/drawer_add_city"
+            style="@style/DrawerItem"
+            android:text="添加城市" />
+
+        <TextView
+            android:id="@+id/drawer_del_city"
+            style="@style/DrawerItem"
+            android:text="删除城市" />
+
+        <TextView
+            android:id="@+id/drawwer_setting"
+            style="@style/DrawerItem"
+            android:text="设置" />
+
+        <TextView
+            android:id="@+id/drawer_exit"
+            style="@style/DrawerItem"
+            android:layout_marginBottom="1dp"
+            android:text="退出" />
+    </LinearLayout>
+
+</LinearLayout>

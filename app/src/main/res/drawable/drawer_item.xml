@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <stroke android:width="1dp" android:color="@color/drawer_item_frame" />
+            <corners android:radius="0dp" />
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="1dp" android:color="@color/drawer_item_frame" />
+            <corners android:radius="0dp" />
+            <solid android:color="@color/drawer_item_select_bg" />
+        </shape>
+    </item>
+</selector>

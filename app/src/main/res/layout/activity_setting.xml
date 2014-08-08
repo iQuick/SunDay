@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/SettingLayout"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/weather_notify" />
+
+            <tk.woppo.sunday.widget.MySlipSwitch
+                android:id="@+id/setting_notify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout style="@style/SettingLayout">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/exit_release" />
+
+            <tk.woppo.sunday.widget.MySlipSwitch
+                android:id="@+id/setting_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout
+            android:id="@+id/setting_share_weather"
+            style="@style/SettingLayout"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/weather_share" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout
+            android:id="@+id/setting_send_weather"
+            style="@style/SettingLayout">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/weather_send" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout
+            android:id="@+id/setting_clean"
+            style="@style/SettingLayout">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/clean_cache" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout
+            android:id="@+id/setting_check_update"
+            style="@style/SettingLayout">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/check_update" />
+        </LinearLayout>
+
+        <TextView style="@style/SettingCutLine" />
+
+        <LinearLayout
+            android:id="@+id/setting_about"
+            style="@style/SettingLayout"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/SettingTv"
+                android:text="@string/about" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
