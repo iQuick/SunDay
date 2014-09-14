@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="bg">#E8E8E8</color>
+    <color name="bg_actionbar">#1885D5</color>
+    <color name="bg_drawer">#1aa0D5</color>
+    <color name="bg_guide">#DDDDDD</color>
+
+    <color name="holo_blue">#FF33E5B5</color>
+
+    <color name="city_bg">#1aa0D5</color>
+    <color name="city_item">#22ffffff</color>
+
+    <color name="my_city_bg">#387BEE</color>
+    <color name="my_city_del">#FDC183</color>
+
+    <color name="load_bg">#1aa0D5</color>
+    <color name="load_frame">#1885D5</color>
+
+    <color name="btn_start_frame">#1555d5</color>
+    <color name="btn_start_normal">#1999d5</color>
+    <color name="btn_start_select">#1777d5</color>
+
+    <color name="widget_bg">#80ffffff</color>
+    <color name="widget_frame">#b0ffffff</color>
+
+    <color name="simple_item_normal_bg">#00000000</color>
+    <color name="simple_item_select_bg">#50ffffff</color>
+    <color name="simple_item_frist_bg">#30ffffff</color>
+
+    <color name="drawer_tx">#E8E8E8</color>
+    <color name="drawer_item_select_bg">#1898D5</color>
+    <color name="drawer_item_frame">#1890D5</color>
+</resources>

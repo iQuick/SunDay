@@ -1,0 +1,46 @@
+apply plugin: 'android'
+apply plugin: 'android-apt'
+def AAVersion = '3.0.1'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.0.3'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 2
+        versionName "1.1"
+    }
+    buildTypes {
+        release {
+            runProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    signingConfigs {
+
+        myConfig {
+            storeFile file("sunday.keystore")
+            storePassword "sunday0.015794578"
+            keyAlias "sunday"
+            keyPassword "157945780.0sunday"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:19.+'
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/androidannotations-api-3.0.1.jar')
+    compile files('libs/umeng-fb-v4.3.2.jar')
+    compile files('libs/umeng-update-v2.4.2.jar')
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.processResources.manifestFile
+        resourcePackageName 'tk.woppo.sunday' //
+    }
+}

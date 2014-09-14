@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_drawer"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/drawer_weather_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:scaleType="centerCrop" />
+
+                <RelativeLayout
+                    style="@style/DrawerLayout"
+                    android:layout_height="100dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/drawer_weather_icon" />
+
+                    <ImageView
+                        android:id="@+id/drawer_weather"
+                        style="@style/DrawerIv"
+                        android:layout_height="80dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/w1_s" />
+
+
+                    <TextView
+                        android:id="@+id/drawer_tv_weather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/drawer_temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@id/drawer_tv_weather"
+                        android:layout_below="@id/drawer_tv_weather"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_chuanyi" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zhishu_chuanyi"
+                        android:textColor="@color/bg_guide"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_chuanyi"
+                        style="@style/DrawerTv" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_ziwaixian" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zhishu_ziwaixian"
+                        android:textColor="@color/bg_guide"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_ziwaixian"
+                        style="@style/DrawerTv" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_ganmao" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zhishu_ganmao"
+                        android:textColor="@color/bg_guide"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_ganmao"
+                        style="@style/DrawerTv" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_yundong" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zhishu_yundong"
+                        android:textColor="@color/bg_guide"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_yundong"
+                        style="@style/DrawerTv" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/DrawerLayout">
+
+                <ImageView
+                    style="@style/DrawerIv"
+                    android:src="@drawable/ic_life_info_xiche" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zhishu_xiche"
+                        android:textColor="@color/bg_guide"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/drawer_xiche"
+                        style="@style/DrawerTv" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <TextView
+            android:id="@+id/drawer_add_city"
+            style="@style/DrawerItem"
+            android:text="@string/add_city" />
+
+        <View style="@style/DrawerLine" />
+
+        <TextView
+            android:id="@+id/drawer_del_city"
+            style="@style/DrawerItem"
+            android:text="@string/del_city" />
+
+        <View style="@style/DrawerLine" />
+
+        <TextView
+            android:id="@+id/drawwer_setting"
+            style="@style/DrawerItem"
+            android:text="@string/setting" />
+
+        <View style="@style/DrawerLine" />
+
+        <TextView
+            android:id="@+id/drawer_exit"
+            style="@style/DrawerItem"
+            android:layout_marginBottom="1dp"
+            android:text="@string/exit" />
+    </LinearLayout>
+
+</LinearLayout>

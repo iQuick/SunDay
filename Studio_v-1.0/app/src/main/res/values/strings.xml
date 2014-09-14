@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SunDay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loading">loading...</string>
+    <string name="action_settings">设置</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_add">添加</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="select_city">城市</string>
+    <string name="city_null">城市-null</string>
+    <string name="city_exceed_num">最多只能添加5个城市</string>
+    <string name="city_already_exists">城市已经存在</string>
+    <string name="city_add_success">城市添加成功</string>
+    <string name="delect">删除</string>
+
+    <string name="weather_service">WeatherService</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+
+    <string name="weather_notify">通知</string>
+    <string name="weather_share">分享天气</string>
+    <string name="weather_send">发送天气</string>
+    <string name="check_update">检查更新</string>
+    <string name="exit_release">退出时释放内存</string>
+    <string name="clean_cache">清除缓存</string>
+
+    <string name="no_delect">给留一个呗，亲 -_-!</string>
+    <string name="no_update">已经是最新版本了，亲 -_-!|</string>
+
+    <string name="success_clean">清除缓存成功</string>
+    <string name="success_update">更新成功</string>
+
+    <string name="error_send">发送天气出错了，亲 -_-!|</string>
+    <string name="error_clean">清除缓存出错了，亲 -_-!|</string>
+    <string name="error_update">更新出错了，亲 -_-!|</string>
+    <string name="error_get_weather">获取天气出错了，亲 -_-!|</string>
+    <string name="error_net">亲，您的网络连接错误，请修正重试！</string>
+    <string name="version">V1.0</string>
+    <string name="about_content">\t\tSunDay手机上好用的App\n\n\t\t我们致力于Android应用开发，以最好的品质回馈于您！如果您有什么好的意见或者建议，请联系我们。</string>
+    <string name="contact_us">\n联系我们：</string>
+    <string name="email">\nEMail:liz3002@126.com</string>
+    <string name="start">开始体验</string>
+    <string name="desc">SunDay从此刻开始</string>
+
+</resources>
