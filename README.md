@@ -1,24 +1,45 @@
 SunDay
 =====================
-SunDay(ÇçÌì)
+SunDay(æ™´å¤©)
 
 ## About
 
-Á·Ï°Ö®×÷£¬Ö÷ÒªÊ¹ÓÃAndroid·½Ãæ×îĞÂµÄIDE£¬ĞÂµÄ¼¼Êõ¡¢ĞÂÌØĞÔ£¬ÒÔ¼°Ò»Ğ©Á÷ĞĞµÄ¿ªÔ´¿â¿ìËÙ¿ª·¢Ò»¸ö²»´íµÄREST Client£¬½ÌÄãÈçºÎMake A Good App! 
+ç»ƒä¹ ä¹‹ä½œï¼Œä¸»è¦ä½¿ç”¨Androidæ–¹é¢æœ€æ–°çš„IDEï¼Œæ–°çš„æŠ€æœ¯ã€æ–°ç‰¹æ€§ï¼Œä»¥åŠä¸€äº›æµè¡Œçš„å¼€æºåº“å¿«é€Ÿå¼€å‘ä¸€ä¸ªä¸é”™çš„REST Clientï¼Œæ•™ä½ å¦‚ä½•Make A Good App! 
 
-ÍÂ²Û£º¹«¹²ÌìÆøµÄapiÕæÊÇÌ«²»RESTFulÁË...
+åæ§½ï¼šå…¬å…±å¤©æ°”çš„apiçœŸæ˜¯å¤ªä¸RESTFuläº†...
 
-## °²×°
+## ç‰ˆæœ¬
+ç”±äºv1.0ç‰ˆå’Œv1.1ç‰ˆæœ¬åŒºåˆ«è¾ƒå¤§ï¼Œæ‰€ä»¥åœ¨è¿™é‡ŒæŠŠä¸¤ä¸ªç‰ˆæœ¬éƒ½æ”¾äº†å‡ºæ¥
 
-[360](http://zhushou.360.cn/detail/index/soft_id/1893987?recrefer=SE_D_sunday)  [Ó¦ÓÃ±¦](http://android.myapp.com/myapp/detail.htm?apkName=tk.woppo.sunday)  [°Ù¶ÈÒÆ¶¯Ó¦ÓÃ](http://as.baidu.com/a/item?docid=6751865&pre=web_am_se)  [Íã¶¹¼Ô](http://www.wandoujia.com/apps/tk.woppo.sunday)
+### ç‰ˆæœ¬åŒºåˆ«
+1ã€æ•°æ®æ¥å£ä¸ä¸€æ ·
 
-## µ¼ÈëÔËĞĞ
+2ã€æ•°æ®ç»“æ„ä¸ä¸€æ ·
 
-Èç¹ûÄãÊÇÖ±½Óµ¼ÈëStudio£¬ÔòÓ¦¸Ã²»»áÓĞÎÊÌâ£¬Ö»ĞèÒª¼ì²éÄã±¾µØµÄgradle°æ±¾¼´¿É¡£Èç¹ûÄãÒªµ¼Èëeclipse£¬ÔòAndroidAnnotations¿ÉÄÜ»á²»Æğ×÷ÓÃ£¬ĞèÒª²Î¿¼[ÕâÀï](https://github.com/excilys/androidannotations/wiki)×öÒ»Ğ©ÅäÖÃ¡£
+3ã€v1.1åœ¨v1.0åŸºç¡€ä¸ŠåŠŸèƒ½æœ‰æ‰€å¢åŠ 
 
-ÓĞĞ©libraryÊÇÍ¨¹ıgradleÖ±½ÓÒıÓÃµÄ£¬¾ßÌå²Î¼ûapp/build.gradle¡£
+### V1.1ç‰ˆ
+1ã€æ›´æ¢äº†æ•°æ®æ¥å£
 
-## Ô¤ÀÀ
+2ã€æ–°å¢äº†ç”¨æˆ·åé¦ˆåŠŸèƒ½
+
+3ã€æ–°å¢å³ä¾§æŠ½å±‰-æ¯å°æ—¶å¤©æ°”
+
+4ã€å¯¹å·¦ä¾§æŠ½å±‰ç•Œé¢è¿›è¡Œäº†ä¿®æ”¹
+
+5ã€å¯¹ç½‘è·¯æ•°æ®è·å–è¿›è¡Œäº†ä¼˜åŒ–
+
+## å®‰è£…
+
+[360](http://zhushou.360.cn/detail/index/soft_id/1893987?recrefer=SE_D_sunday)  [åº”ç”¨å®](http://android.myapp.com/myapp/detail.htm?apkName=tk.woppo.sunday)  [ç™¾åº¦ç§»åŠ¨åº”ç”¨](http://as.baidu.com/a/item?docid=6751865&pre=web_am_se)  [è±Œè±†èš](http://www.wandoujia.com/apps/tk.woppo.sunday)
+
+## å¯¼å…¥è¿è¡Œ
+
+å¦‚æœä½ æ˜¯ç›´æ¥å¯¼å…¥Studioï¼Œåˆ™åº”è¯¥ä¸ä¼šæœ‰é—®é¢˜ï¼Œåªéœ€è¦æ£€æŸ¥ä½ æœ¬åœ°çš„gradleç‰ˆæœ¬å³å¯ã€‚å¦‚æœä½ è¦å¯¼å…¥eclipseï¼Œåˆ™AndroidAnnotationså¯èƒ½ä¼šä¸èµ·ä½œç”¨ï¼Œéœ€è¦å‚è€ƒ[è¿™é‡Œ](https://github.com/excilys/androidannotations/wiki)åšä¸€äº›é…ç½®ã€‚
+
+æœ‰äº›libraryæ˜¯é€šè¿‡gradleç›´æ¥å¼•ç”¨çš„ï¼Œå…·ä½“å‚è§app/build.gradleã€‚
+
+## é¢„è§ˆ
 
 ![SunDay](https://github.com/iQuick/SunDay/blob/master/art/1.png)
 ![SunDay](https://github.com/iQuick/SunDay/blob/master/art/2.png)
@@ -26,52 +47,54 @@ SunDay(ÇçÌì)
 ![SunDay](https://github.com/iQuick/SunDay/blob/master/art/4.png)
 ![SunDay](https://github.com/iQuick/SunDay/blob/master/art/5.png)
 ![SunDay](https://github.com/iQuick/SunDay/blob/master/art/6.png)
+![SunDay](https://github.com/iQuick/SunDay/blob/master/art/7.png)
+![SunDay](https://github.com/iQuick/SunDay/blob/master/art/8.png)
 
-## ¿ª·¢¹¤¾ß
+## å¼€å‘å·¥å…·
 
 Android Studio(0.8.2) + Gradle(1.12)
 
-×÷ÎªÒ»Ãû³±ÈË£¬ÔõÄÜ²»Ê¹ÓÃ×îĞÂµÄIDEÀ´¿ª·¢ÄØ£¿
+ä½œä¸ºä¸€åæ½®äººï¼Œæ€èƒ½ä¸ä½¿ç”¨æœ€æ–°çš„IDEæ¥å¼€å‘å‘¢ï¼Ÿ
 
-Ö§³ÖÃüÁîĞĞ½øĞĞGradle±àÒë:£¨²»ÖªµÀÊ²Ã´ÊÇGradle£¿¼ûÕâÆª²©¿Í[Android Gradle](http://stormzhang.github.io/android/2014/02/28/android-gradle/)£©
+æ”¯æŒå‘½ä»¤è¡Œè¿›è¡ŒGradleç¼–è¯‘:ï¼ˆä¸çŸ¥é“ä»€ä¹ˆæ˜¯Gradleï¼Ÿè§è¿™ç¯‡åšå®¢[Android Gradle](http://stormzhang.github.io/android/2014/02/28/android-gradle/)ï¼‰
 
     gradle clean
     gradle build
 
-## ÓÃµ½µÄ¿ªÔ´¿â
+## ç”¨åˆ°çš„å¼€æºåº“
 
-Ä¿Ç°ÓÃµ½µÄÒ»Ğ©¿ªÔ´¿â£¬»á³ÖĞø¸üĞÂ¡£
+ç›®å‰ç”¨åˆ°çš„ä¸€äº›å¼€æºåº“ï¼Œä¼šæŒç»­æ›´æ–°ã€‚
 
 #### v1.0
 
-* [Volley](https://android.googlesource.com/platform/frameworks/volley) Google I/O 2013ÍÆ³öµÄ¹Ù·½ÍøÂçÇëÇó¿â£¬ÇëÇó¿ìËÙ£¬Ê¹ÓÃ·½±ã£¬Ò×ÓÚÀ©Õ¹£¬¶øÇÒÖ§³ÖÍ¼Æ¬Òì²½¼ÓÔØ¡£
+* [Volley](https://android.googlesource.com/platform/frameworks/volley) Google I/O 2013æ¨å‡ºçš„å®˜æ–¹ç½‘ç»œè¯·æ±‚åº“ï¼Œè¯·æ±‚å¿«é€Ÿï¼Œä½¿ç”¨æ–¹ä¾¿ï¼Œæ˜“äºæ‰©å±•ï¼Œè€Œä¸”æ”¯æŒå›¾ç‰‡å¼‚æ­¥åŠ è½½ã€‚
 
-* [SwipeRefreshLayout](http://stormzhang.github.io/android/2014/03/29/android-swiperefreshlayout/) Google×î½üÍÆ³öµÄÏÂÀ­Ë¢ĞÂ×é¼ş£¬Ô­À´ÏÂÀ­Ë¢ĞÂ¿ÉÒÔÈç´Ë¼òµ¥£¬Èç´Ë¿áìÅ£¡
+* [SwipeRefreshLayout](http://stormzhang.github.io/android/2014/03/29/android-swiperefreshlayout/) Googleæœ€è¿‘æ¨å‡ºçš„ä¸‹æ‹‰åˆ·æ–°ç»„ä»¶ï¼ŒåŸæ¥ä¸‹æ‹‰åˆ·æ–°å¯ä»¥å¦‚æ­¤ç®€å•ï¼Œå¦‚æ­¤é…·ç‚«ï¼
 
-* [SwipeBackLayout](https://github.com/Issacw0ng/SwipeBackLayout) ÄãµÄApp»¹Ã»ÓĞÖ§³ÖÊÖÊÆ»¬¶¯·µ»ØÃ´£¿ÄÇ¾ÍÓĞµãOutÁË¡£
+* [SwipeBackLayout](https://github.com/Issacw0ng/SwipeBackLayout) ä½ çš„Appè¿˜æ²¡æœ‰æ”¯æŒæ‰‹åŠ¿æ»‘åŠ¨è¿”å›ä¹ˆï¼Ÿé‚£å°±æœ‰ç‚¹Outäº†ã€‚
 
-* [AndroidAnnotations](https://github.com/excilys/androidannotations/wiki) ÊÇ²»ÊÇºÜ·³¸÷ÖÖfindViewById, ÄÇÃ´Õâ¸ö¿âÕıÊÇÄãĞèÒªµÄ£¬ÇáÁ¿¼¶View×¢Èë¿ò¼Ü£¬´Ó´ËÄãµÄ´úÂë²»ÔÙÄÇÃ´Ó·Ö×¡£
+* [AndroidAnnotations](https://github.com/excilys/androidannotations/wiki) æ˜¯ä¸æ˜¯å¾ˆçƒ¦å„ç§findViewById, é‚£ä¹ˆè¿™ä¸ªåº“æ­£æ˜¯ä½ éœ€è¦çš„ï¼Œè½»é‡çº§Viewæ³¨å…¥æ¡†æ¶ï¼Œä»æ­¤ä½ çš„ä»£ç ä¸å†é‚£ä¹ˆè‡ƒè‚¿ã€‚
 
-* [Gson](https://github.com/eatnumber1/google-gson) json½âÎö
+* [Gson](https://github.com/eatnumber1/google-gson) jsonè§£æ
 
-* [Crouton](https://github.com/keyboardsurfer/Crouton) Ò»¸öÓÑºÃµÄÌáÊ¾Ğ§¹û
+* [Crouton](https://github.com/keyboardsurfer/Crouton) ä¸€ä¸ªå‹å¥½çš„æç¤ºæ•ˆæœ
 
-* [JazzyListView](https://github.com/twotoasters/JazzyListView) ÈÃÄãµÄListView¸üÈİÒ×µØ¼ÓÈë¶¯»­
+* [JazzyListView](https://github.com/twotoasters/JazzyListView) è®©ä½ çš„ListViewæ›´å®¹æ˜“åœ°åŠ å…¥åŠ¨ç”»
 
-* [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager) ÈÃÄãµÄViewPagerÊµÏÖ3D·­×ª
+* [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager) è®©ä½ çš„ViewPagerå®ç°3Dç¿»è½¬
 
-* [Titanic](https://github.com/RomainPiel/Titanic) ²»ºÃ±í´ï£¬×Ô¼º½øÈ¥¿´°É
+* [Titanic](https://github.com/RomainPiel/Titanic) ä¸å¥½è¡¨è¾¾ï¼Œè‡ªå·±è¿›å»çœ‹å§
 
 
 ## Pull Requests
 
 I will gladly accept pull requests for fixes and feature enhancements but please do them in the develop branch.
 
-## ¸ĞĞ»
+## æ„Ÿè°¢
 
-±¾×÷SunDayÇçÌìÑÓĞøÁËFineDayµÄÊ×Ò³·ç¸ñ£¬½«¹¹¼Ü¸Ä³ÉÁË²à»¬À¸½á¹¹£¬¼ÓÈëÁË×ÀÃæWidgetĞ¡¿Ø¼ş£¬ÎÂÜ°ÌáÊ¾£¬¼°²¿·ÖÆäËû¹¦ÄÜ¡£
+æœ¬ä½œSunDayæ™´å¤©å»¶ç»­äº†FineDayçš„é¦–é¡µé£æ ¼ï¼Œå°†æ„æ¶æ”¹æˆäº†ä¾§æ»‘æ ç»“æ„ï¼ŒåŠ å…¥äº†æ¡Œé¢Widgetå°æ§ä»¶ï¼Œæ¸©é¦¨æç¤ºï¼ŒåŠéƒ¨åˆ†å…¶ä»–åŠŸèƒ½ã€‚
 
-¸ĞĞ» [sd6352051´óÉñ](https://github.com/sd6352051/FineDay) [stormzhang´óÉñ](https://github.com/stormzhang/9GAG/blob/master/README.md)
+æ„Ÿè°¢ [sd6352051å¤§ç¥](https://github.com/sd6352051/FineDay) [stormzhangå¤§ç¥](https://github.com/stormzhang/9GAG/blob/master/README.md)
 
 License
 ============
