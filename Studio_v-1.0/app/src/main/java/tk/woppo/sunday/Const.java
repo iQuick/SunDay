@@ -30,7 +30,7 @@ public class Const {
     public static final String FILE_CITY_NAME = "city.xml";
 
     /** 六天天气 */
-    public static final String WEATHER = "http://m.weather.com.cn/atad/";
+    public static final String WEATHER = "http://113.108.239.116/atad/";
 
     /** 实时天气 */
     public static final String WEATHER_NOW = "http://www.weather.com.cn/data/sk/";
