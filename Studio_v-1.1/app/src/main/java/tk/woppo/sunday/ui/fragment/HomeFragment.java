@@ -38,6 +38,7 @@ import tk.woppo.sunday.ui.MainActivity_;
 import tk.woppo.sunday.ui.adapter.FutureWeatherAdapter;
 import tk.woppo.sunday.ui.adapter.RealtimeAdapter;
 import tk.woppo.sunday.util.LogUtil;
+import tk.woppo.sunday.util.NetUtil;
 import tk.woppo.sunday.util.SharedPrefUtil;
 import tk.woppo.sunday.util.ToastUtil;
 import tk.woppo.sunday.widget.RealtimeWeatherItem;
@@ -129,7 +130,11 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
         mSunModels = new ArrayList<SunModel>();
 
         // 获取所有城市天气
-        getAllWeatherData();
+        if (NetUtil.isNetworkConnected()) {
+            getAllWeatherData();
+        } else {
+            getDataFromDB();
+        }
     }
 
     private void initView() {
@@ -240,6 +245,11 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
      * 更新页面
      */
     private void updateView() {
+
+        // 更新每小时天气
+        if (activity != null) {
+            activity.updateHourly(mSunModels.get(mCurPageIndex).hourlyForecast);
+        }
         // 更新ListView
         mFutureWeatherAdapter.appendToList(mSunModels.get(mCurPageIndex).weather);
         // 更新ViewPager
@@ -272,9 +282,6 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
                 // 判断当前的数据是否已经全部获取到，来更新界面
                 if (!isGetAllData || mSunModels.size() == App.getMyArea().size()) {
                     updateView();
-                    if (activity != null) {
-                        activity.updateHourly(mSunModels.get(mCurPageIndex).hourlyForecast);
-                    }
                 }
             }
         };

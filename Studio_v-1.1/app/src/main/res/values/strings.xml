@@ -18,12 +18,13 @@
     <string name="delect">删除</string>
 
     <string name="weather_service">WeatherService</string>
+    <string name="setting">设置</string>
     <string name="about">关于</string>
 
-    <string name="setting">设　　置</string>
-    <string name="exit">退　　出</string>
-    <string name="del_city">删除城市</string>
-    <string name="add_city">添加城市</string>
+    <string name="menu_setting">设　　置</string>
+    <string name="menu_exit">退　　出</string>
+    <string name="menu_del_city">删除城市</string>
+    <string name="menu_add_city">添加城市</string>
 
     <string name="weather_notify">通知</string>
     <string name="weather_share">分享天气</string>

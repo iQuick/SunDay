@@ -212,21 +212,21 @@
         <TextView
             android:id="@+id/drawer_add_city"
             style="@style/DrawerItem"
-            android:text="@string/add_city" />
+            android:text="@string/menu_add_city" />
 
         <View style="@style/DrawerLine" />
 
         <TextView
             android:id="@+id/drawer_del_city"
             style="@style/DrawerItem"
-            android:text="@string/del_city" />
+            android:text="@string/menu_del_city" />
 
         <View style="@style/DrawerLine" />
 
         <TextView
             android:id="@+id/drawwer_setting"
             style="@style/DrawerItem"
-            android:text="@string/setting" />
+            android:text="@string/menu_setting" />
 
         <View style="@style/DrawerLine" />
 
@@ -234,7 +234,7 @@
             android:id="@+id/drawer_exit"
             style="@style/DrawerItem"
             android:layout_marginBottom="1dp"
-            android:text="@string/exit" />
+            android:text="@string/menu_exit" />
     </LinearLayout>
 
 </LinearLayout>
