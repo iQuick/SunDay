@@ -29,6 +29,9 @@ SunDay(晴天)
 
 5、对网路数据获取进行了优化
 
+### Elicpse版
+Elicpse版由网友ljtyzhr提供 [https://github.com/ljtyzhr/Sunday](https://github.com/ljtyzhr/Sunday)
+
 ## 安装
 
 [360](http://zhushou.360.cn/detail/index/soft_id/1893987?recrefer=SE_D_sunday)  [应用宝](http://android.myapp.com/myapp/detail.htm?apkName=tk.woppo.sunday)  [百度移动应用](http://as.baidu.com/a/item?docid=6751865&pre=web_am_se)  [豌豆荚](http://www.wandoujia.com/apps/tk.woppo.sunday)
