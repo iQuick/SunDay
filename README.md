@@ -30,7 +30,9 @@ SunDay(晴天)
 5、对网路数据获取进行了优化
 
 ### Elicpse版
+该版为v1.0版本，v1.1暂时未提供Elicpse，需要的朋友还请自己从Studio迁移到Eclipse
 Elicpse版由网友ljtyzhr提供 [https://github.com/ljtyzhr/Sunday](https://github.com/ljtyzhr/Sunday)
+切记要将 Const类里的六天天气接口换成 [http://113.108.239.116/atad/](http://113.108.239.116/atad/)
 
 ## 安装
 
